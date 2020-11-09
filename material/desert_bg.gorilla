@@ -1,0 +1,6 @@
+[Texture]
+file desert_bg.png
+whitepixel 513 513
+
+[Sprites]
+desert_bg 0 0 513 513

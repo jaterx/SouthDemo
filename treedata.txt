@@ -1,0 +1,89 @@
+firn, area1
+x: 170, 17
+z: -40, 16
+y: 33, 58
+
+firn, area2
+x: -16, 155
+z: -85, -45
+y: 52, 85
+
+firn, area3
+x: -143, -50
+z: -35, 20
+y: -25, -50
+
+desert, area1
+x: 280, -210
+z: 917, 950
+y: 22, 190
+
+island area1
+x:34, -26
+z: 2983, 2973
+y: -30, 45
+
+valley point1
+x: 225
+z: 1910
+y: -219
+
+valley point2
+x: -154
+y: 1917
+z: 159
+
+valley linear equation 1
+y = -0.997x + 5.406
+
+valley point3
+x: 90
+y: 1920
+z: 18
+
+valley point4
+x: 25
+y: 1945
+z: -172
+
+valley linear equation 2
+y = 2.923x + -245.077
+
+valley point5
+x: 71
+y: 1945
+z: 75
+
+valley point6
+x: -223
+y: 1943
+z: 19
+
+valley linear equation 3
+y = 0.191x + 61.621
+
+valley point7
+x: -79
+y: 1949
+z: 262
+
+valley point8
+x: -39
+y: 1921
+z: 62
+
+valley linear equation 4
+y = -5x - 133
+
+valley point9
+x: -161
+y: 1927
+z: 282
+
+valley point10
+x: -39
+y: 1921
+z: 62
+
+valley linear equation 5
+y = -1.803x - 8.328

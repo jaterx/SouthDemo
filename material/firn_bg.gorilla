@@ -1,0 +1,6 @@
+[Texture]
+file firn_bg.png
+whitepixel 513 513
+
+[Sprites]
+firn_bg 0 0 513 513

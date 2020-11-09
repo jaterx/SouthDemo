@@ -1,0 +1,6 @@
+[Texture]
+file frame.png
+whitepixel 856 856
+
+[Sprites]
+frame 0 0 856 856

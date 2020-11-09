@@ -1,0 +1,173 @@
+Patch Notes
+
+V1 10.11
+1. Added a sky mesh
+2. Added 4 complex terrain meshes
+3. Added a basic lighting effect
+
+V2 10.13
+1. Added a controllable bird
+2. Added a first person camera
+3. Added a third person camera
+4. Player now can free to fly£¨Arrow keys to control the position, WASD keys to control the direction£©
+
+V3 10.26
+1. Added a water mesh
+2. Added an enemy: Wolf
+3. Sky now has a simple rotation animation
+4. Added the collision detection between the bird and the wolf
+5. Wolf now has a simple running animation
+
+V4 10.27
+1. Added 3D Main Menu£¨1£¬2£¬3£¬4 to switch menu tab£¬Enter key to confirm£¬Backspace key to return£©
+2. Added a simple yaw animation for 3D main menu
+3. "Play" tab and "Exit" tab now can be interacted
+4. Added a readme file for patch notes (in Chinese)
+
+V5 10.28
+1. Included the user interface overlay system "Gorilla"
+2. Added UI system
+3. Added the HUD for displaying current weapons£¨Use 1£¬2£¬3 keys to switch weapons in game£©
+4. Added the HUD for mini map£¨The red "*" sign is indicating the current position of player£©
+5. Added the HUD for status bar
+6. Added the HUD for crosshair
+7. Added the HUD for world coordinates and map names£¨Coordinates represent as£º x:0 + Offset of the real life longitude of the current map£¬y:0 + Offset of the real life latitude of the current map£©
+8. Polished the texture for 3D main menu
+9. Improve the features for 3D main menu£¨Maps can be switched by pressing arrow keys in 3D main menu£©
+10. Water now has a simple waving animation
+11. Change the name of the program in the title bar and sync the version number with it in Google Drive
+
+V6 10.29
+1. Added Tree Distribution system
+2. Added plants for firn map (as fixed enemy object)
+3. Added plants for desert map (as fixed enemy object)
+4. Added plants for island map (as fixed enemy object)
+5. Added a tent on desert map (as shelter building)
+6. Added a castle on valley map (as shelter building)
+
+V7 10.31
+1. Included the collision detection system "New MOC"
+2. Added the collision detection between player and terrain meshes (Still working in progress)
+3. Shrink the size of game files£¨From 898MB£¬to 561MB)
+4. Added a readme file for patch notes (in English)
+
+
+
+V8
+ 11.4
+1. Added an enemy: Crow
+2. Crow now has a simple animation
+3. Deleted Chinese Path Notes
+4. Added a Todo List for better timeline organization
+
+V9 11.6
+1. Included the advanced Sound system "OpenAL"
+2. Included the Ogre OpenAL adapter "Sound Manager"
+3. Added Sound system
+4. Added background music for main menu
+5. Added wind ambient sound on all maps
+6. Added humming bird tweet ambient sound on all maps
+7. Added wave ambient sound on island map only
+8. Added crow tweet ambient sound on desert map only
+9. Crow now can patrol on a random path on desert map
+10. Wolf now can patrol on a fixed path on firn map
+11. Slightly optimized the Tree Distribution system for better fps
+12. Added an weapon: Feather Arrow (not functioning yet)
+
+V10 11.7
+1. Added Sunset sky bounding dome for desert map
+2. Added Cloudy sky bounding dome for valley map
+3. Sunset sky now has simple animation
+4. Cloudy sky now has simple animation
+
+V11 11.10 
+1. Added the HUD for displaying enemy information
+2. Added a Replay function, now you do not need to restart the game every time to trigger test
+3. You can now shoot the enemy with Feather Arrow
+4. You can now melee attack the enemy with Beak
+5. Beak attack now can damage enemies
+6. Feather Arrow now can damage enemies
+7. Status bar is now intractable
+8. Crosshair now will turn to red along with enemy information displayed when a player's character is within a certain range, or a player's arrow is within a certain range
+9. Added a loading screen in console before the game is rendered, a loading screen will help developers debugging the game
+
+V12 11.15
+1. Significant Performance Boost by all means (Before Optimization Average FPS: 30, After Optimization FPS: according to monitor's refresh rate)
+2. Algorithm Optimization according to loading order (Tree Distribution System has more priority, Particle System has less, etc.)
+3. Included shader programs, which is used dedicatedly to calculate Particle, Spline and Screen Space Effect systems
+4. Added Particle System
+5. Firn map now has a falling snow effect
+6. A simple blood splash effect will be shown if you hit enemies by beak
+7. Swapped the bounding sky dome between firn map and valley map for more realistic visualization
+8. Added a Known Issues section at the end of the readme file for us to debug easily
+9. Added order number to patch notes
+
+V13 11.19
+1. Optimized Tree Distribution System, now a linear equation can be used to determine tree positions
+2. Added plants for valley map (as fixed enemy object)
+3. Added pine mesh (green instead of white compare to snow pine)
+4. You can now get injured by nearby plants (with UI feedback)
+5. FPS Drop is fixed if you rotate the camera upward or downward, still not fixed when plenty of trees are in camera view range
+
+V14 11.20
+1. Overall Performance Boost, now the FPS won't drop when there are plenty of trees in the camera view range
+2. Now you can not fly outside the bounding dome and below water on island, or below the minimum height of other maps
+
+V15 11.23
+1. Added a beacon on island map (as shelter building)
+2. Added a house on firn map (as shelter building)
+3. Fixed a bug that may prevent collision detection on valley and desert map from working properly
+4. Optimized overall experience under locked 60 fps
+
+V16 11.24
+1. Added a fireball effect when shooting feather arrow
+2. Added a solar wind effect when feather arrow hits the enemy
+3. Fireball effect now has a arrow shooting sound effect
+4. Solar wind effect now has a burning sound effect
+5. Beak attack now has a stabbing sound effect
+6. Snow is now falling towards wind direction instead of falling downward directly
+7. Fixed a bug that may let feather arrow not showing properly in third person view
+8. Fixed a bug that may let bird's wings not showing properly on valley, desert and island map in third person view
+9. Fixed a bug that may prevent enemies from getting damaged by feather arrow attack
+
+V17 11.25
+1. Added collision detection between player and shelter buildings on different maps
+2. You can now travel or teleport through the maps by collide with shelter buildings on each map (only open if you clear the enemies on that map)
+3. Teleporting now has a sci-fi sound effect
+4. Humming bird's wings are now animating under third person view
+5. Credits' Menu is now can be displayed
+6. Fixed the invisible texture bug of humming bird's wings
+7. Fixed a bug that may prevent enemies from dying when their HP is below 0 when attacked by feather arrow
+8. Accerlerate the overall rotation speed for some game objects under locked 60 fps
+9. Feces weapon now is changed to Hysteria, it will be implemented in V18 or V19 respectively
+
+V18 11.26
+1. Added Night sky bounding dome for valley map
+2. Night sky now has simple animation
+3. Added Spline Particle Effect on valley map (as fireflies)
+4. Added a HUD for Mission List below the mini map, now player should be clear about the objective on each map
+5. Added mission status flags (can be switched between "DOING" and "CLEAR" depends on mission status)
+6. Clear a mission will now trigger a mission success sound effect (as bell hits)
+7. Flying near the plants on valley map will now have a warning sound effect
+
+V19 11.28
+1. Hysteria Drone weapon is now implemented (triggered by pressing number 3 key, only available under first person view)
+2. A multi-color fire visual effect will be displayed around the drone under the first person view
+3. Hysteria Drone now can damage enemies by detonating itself
+4. Hysteria Drone is now having a buring operating sound effect
+5. Hysteria Drone is now having a exploding detonation sound effect
+6. Added HUD information for Hysteria Drone
+7. Fixed a bug that will let a reference cube show up on the center of the screen on firn map
+
+V20 11.29
+1. The game now can be completed, by colliding with the beacon, it will jump to credits menu as an ending
+2. Option Menu now can be displayed
+3. You can now choose options under Option menu
+4. The game now is on Beta stage and ready for the demo
+5. Thanks for our hard working, we went gold!
+
+Known Issues
+1. Wolf Animation is bugged (need to fix)
+2. Replay function is bugged (it's ok and should be deleted for demo version)
+3. Enemies can still react to attack when they died
+4. Running the game will have other application running will cause the frame rate drop, please close all other applications while running the game

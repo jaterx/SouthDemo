@@ -1,0 +1,6 @@
+[Texture]
+file wbeak.png
+whitepixel 1024 1252
+
+[Sprites]
+wbeak 0 0 1024 1252

@@ -1,0 +1,6 @@
+[Texture]
+file warrow.png
+whitepixel 1024 1252
+
+[Sprites]
+warrow 0 0 1024 1252
